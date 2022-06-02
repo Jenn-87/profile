@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+  @media (max-width: 720px) {
+    .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 300;
+  background-color: #eff1f2;
+  color: #414a50;
+}
+
+h1, h2 {
+  font-family: 'Balsamiq Sans', cursive;
+  color: #85A6B1;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 1px;
+  color: #4E5B64;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color:#9ef1cd;
+}
+
+a:hover {
+  color: #CAEDDE;
+}
+
+.img-circle {
+  border-radius: 150px;
+  width: 250px;
+}
+
+div {
+ display: block;
+}
+
+.card-white {
+  background-color: white;
+  padding: 32px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btn-green {
+background-color: #b1d3c4;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgb(65 74 80 / 50%);
+}
+
+.btn-blue:hover {
+  background-color: #a1e0c5;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 24px;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #b1d3c4;
+}
+
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+.fa-gem:before {
+  content: "\f3a5";
+}
+
+.fa-hamburger:before {
+  content: "\f805";
+}
+
+.fa-peace:before {
+  content: "\f67c";
+}
